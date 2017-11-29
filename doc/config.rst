@@ -878,6 +878,12 @@ pool_size
 Set maximum size of pools for this database.  If not set,
 the default_pool_size is used.
 
+reserve_pool
+------------
+
+Set maximum size of reserve pools for this database.  If not set,
+the reserve_pool_size is used.
+
 connect_query
 -------------
 

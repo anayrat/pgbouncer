@@ -432,6 +432,19 @@ pool_size
 pool_mode
     The database's override pool_mode, or NULL if the default will be used instead.
 
+max_connections
+    Maximum number of database connections.
+
+current_connections
+    Clients connections from all pools combined.
+
+paused
+    True if database is paused (by admin command).
+
+disabled
+    True if database is disabled (by admin command).
+
+
 SHOW FDS;
 ---------
 
